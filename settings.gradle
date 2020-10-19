@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'sso-server'
+
+include 'gateway-server'
+include 'services:user-service'

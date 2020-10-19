@@ -1,0 +1,4 @@
+GET {{gateway-server}}/user
+Accept: application/json
+
+###
