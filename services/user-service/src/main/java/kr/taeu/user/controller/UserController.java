@@ -12,6 +12,7 @@ import reactor.core.publisher.Mono;
 @RequestMapping("/user")
 @RequiredArgsConstructor
 public class UserController {
+
     @GetMapping
     public Mono<String> get() {
         log.info("UserController get start");
